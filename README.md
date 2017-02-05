@@ -39,7 +39,7 @@ alter database mydomihome_development default character set utf8 default collate
 
 * Database initialization
 
-todo...
+Use db:seed to create an admin account (password: admin). When logged, change password for security !
 
 * Services (job queues, cache servers, search engines, etc.)
 

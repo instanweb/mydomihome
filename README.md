@@ -20,10 +20,22 @@ update user and password in database.yml file
 * Database creation
 
 mysql -u `username` -p
+
 create database mydomihome_production;
+
 create database mydomihome_test;
+
 create database mydomihome_development;
+
 exit
+
+Note : be sure that database option DEFAULT CHARACTER SET is utf8 and DEFAULT COLLATE is utf8_unicode_ci
+
+alter database mydomihome_production default character set utf8 default collate utf8_unicode_ci;
+
+alter database mydomihome_test default character set utf8 default collate utf8_unicode_ci;
+
+alter database mydomihome_development default character set utf8 default collate utf8_unicode_ci;
 
 * Database initialization
 

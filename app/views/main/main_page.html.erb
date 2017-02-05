@@ -1,1 +1,4 @@
 <h1>it's works</h1>
+<% if current_user.admin? %>
+  <h2><%= link_to "Administration", admin_main_page_path %></h2>
+<% end %>

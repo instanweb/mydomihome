@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/instanweb/mydomihome.svg?style=svg)](https://circleci.com/gh/instanweb/mydomihome)
+CircleCI [![CircleCI](https://circleci.com/gh/instanweb/mydomihome.svg?style=svg)](https://circleci.com/gh/instanweb/mydomihome)
 
 # README
 MyDomiHome is a simple web interface to a domotic system.

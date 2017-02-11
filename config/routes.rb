@@ -14,5 +14,13 @@ Rails.application.routes.draw do
   get '/logout' => 'sessions#destroy'
 
   get 'admin/main_page'
+
+
+  #api
+  namespace :api do
+    namespace :v1 do
+      resources :users, only: [:show]
+    end
+  end
   
 end

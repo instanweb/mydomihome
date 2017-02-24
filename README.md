@@ -1,3 +1,5 @@
+## CircleCI [![CircleCI](https://circleci.com/gh/instanweb/mydomihome.svg?style=svg)](https://circleci.com/gh/instanweb/mydomihome)
+
 # README
 MyDomiHome is a simple web interface to a domotic system.
 It will be connected to the MyDomiHomeDriver application which pilots electrical devices.

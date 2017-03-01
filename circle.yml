@@ -2,4 +2,4 @@ deployment:
   production:
     branch: master
     commands:
-    - ./scripts/deploy.sh
+    - /var/www/mydomihome/scripts/deploy.sh

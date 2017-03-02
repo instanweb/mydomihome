@@ -2,4 +2,4 @@ deployment:
   production:
     branch: master
     commands:
-      - scp -r mydomihome/* deploy@vps296315.ovh.net:/var/www/mydomihome/
+      - ./deploy.sh

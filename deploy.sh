@@ -8,7 +8,7 @@ git checkout --force master
 git pull
 
 echo "2. Restart nginx"
-sudo service nginx restart
+sudo -n /bin/systemctl restart nginx.service
 
 echo 'Done!'
 

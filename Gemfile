@@ -21,6 +21,22 @@ gem 'bcrypt', '~> 3.1.7'
 # User ActiveModel serializer
 gem 'active_model_serializers'
 
+# jquery
+gem "jquery-rails"
+
+# sass
+gem "sass-rails"
+gem 'uglifier'
+gem 'coffee-rails'
+
+# turbo links
+gem "turbolinks"
+
+# bootstrap
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
+
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
